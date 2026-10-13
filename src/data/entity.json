@@ -1,0 +1,76 @@
+[
+    {
+        "@type": "ProfessionalService",
+        "@id": "https://seovaldemoro.com/#business",
+        "name": "SEO Valdemoro",
+        "description": "Agencia de SEO local y diseño web en Valdemoro (Madrid). Ayudamos a comercios, autónomos y pymes del sur de Madrid a salir en Google y Google Maps y a tener una web rápida. Precio y alcance por escrito, sin permanencia en los servicios mensuales.",
+        "url": "https://seovaldemoro.com",
+        "telephone": "+34615096857",
+        "email": "hola@seovaldemoro.com",
+        "logo": "https://seovaldemoro.com/images/logo-schema.jpg",
+        "image": "https://seovaldemoro.com/images/og-image.jpg",
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "opens": "09:00",
+                "closes": "19:00"
+            }
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "email": "hola@seovaldemoro.com",
+            "availableLanguage": "es"
+        },
+        "areaServed": [
+            {
+                "@type": "City",
+                "name": "Valdemoro"
+            },
+            {
+                "@type": "City",
+                "name": "Pinto"
+            },
+            {
+                "@type": "City",
+                "name": "Parla"
+            },
+            {
+                "@type": "City",
+                "name": "Getafe"
+            },
+            {
+                "@type": "City",
+                "name": "Fuenlabrada"
+            },
+            {
+                "@type": "City",
+                "name": "Aranjuez"
+            }
+        ],
+        "knowsAbout": [
+            "SEO local",
+            "Google Business Profile",
+            "Diseño web",
+            "GEO (Generative Engine Optimization)",
+            "Soporte WordPress"
+        ]
+    },
+    {
+        "@type": "WebSite",
+        "@id": "https://seovaldemoro.com/#website",
+        "url": "https://seovaldemoro.com/",
+        "name": "SEO Valdemoro",
+        "inLanguage": "es-ES",
+        "publisher": {
+            "@id": "https://seovaldemoro.com/#business"
+        }
+    }
+]
